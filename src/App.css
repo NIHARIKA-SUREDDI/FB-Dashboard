@@ -19,8 +19,9 @@
  .nav {
   display: flex;
   justify-content: space-between;
-  padding: 10px 20px;
- font-size: 12px;
+  padding: 15px 20px;
+  
+  font-size: 12px;
   align-items: center;
   
 }
@@ -29,9 +30,9 @@ button {
   border: none;
   color: blue;
   background: none;
-  padding: 15px;
+  padding: 5px;
   font-size: 14px;
-  margin-left:-1px;
+  margin-left:-18px;
  
   cursor: pointer;
 }
@@ -43,7 +44,7 @@ button:hover {
 .nav-items {
   display: flex;
   align-items: center; 
-  gap: 25px; 
+  gap: 30px; 
   color: blue;
 }
 
@@ -53,6 +54,7 @@ button:hover {
   color: rgb(61, 61, 158);
   font-size: 14px;
   gap:5px;
+  margin-right: -15px;
   cursor: pointer;
 }
 
@@ -145,15 +147,7 @@ button:hover {
 }
 
 
-/* .content button:nth-of-type(6) {
-  background-color: #007bff;
-  padding: 10px 20px;
-  color: white;
-  border: none;
-  border-radius: 2px;
- 
- 
-} */
+
 
 
 .content button{
@@ -233,8 +227,7 @@ select option {
   
  margin-right: 75%;
  /* padding-top: 30px; */
- /* background-color: #ebf2f3;
- border: 1px solid #b2ebf2; */
+ 
  
 }
 .usage-section h3{
@@ -271,6 +264,7 @@ padding-left: 30px;
 }
 .onboarding-section h3{
   padding-bottom: 15px;
+  margin-left: 15px;
 
 }
 .onboarding-section hr{
@@ -279,14 +273,15 @@ padding-left: 30px;
  
 }
 .onboarding-section p{
-  padding-bottom: 10px;
+  padding-top: 2px;
+  padding-bottom: 5px;
 }
 
 .customer-section{
  
   margin-left: 55%;
  /* margin-top:-400px; */
- margin-top: -52%;
+ margin-top: -45%;
  /* margin-right: 40px; */
  
  
@@ -313,8 +308,8 @@ padding-left: 30px;
 }
 .custom-dropdown hr {
   margin-bottom: 50px; 
-  width: 60%;
-  margin-left: 120px;
+  width: 100%;
+  /* margin-left: 120px; */
 
 
 }
@@ -332,7 +327,7 @@ padding-left: 30px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   font-family: Arial, sans-serif;
   width: 100%;
-  max-width: 400px;
+  max-width: 600px;
   /* padding-top: -20px; */
   margin: 0 auto;
   margin-top: -40px;

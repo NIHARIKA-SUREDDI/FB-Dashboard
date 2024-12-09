@@ -265,7 +265,8 @@ function App() {
 
 
     <div className="usage-section">
-      <h3>Current Usage:</h3>
+      <h3>Current Usage</h3>
+      
       <hr></hr>
       <div>
       <ul>
